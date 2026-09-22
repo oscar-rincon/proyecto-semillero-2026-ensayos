@@ -1,0 +1,29 @@
+name: cinco-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12.8
+  - numpy=2.2.2
+  - scipy=1.15.1
+  - matplotlib=3.10.0
+  - h5py=3.12.1
+  - netcdf4=1.7.2
+  - jupyterlab=4.3.4
+  - ipykernel=6.29.5
+  - ipympl=0.9.6
+  - ipywidgets=8.1.5
+  - pillow=11.1.0
+  - pyyaml=6.0.2
+  - sympy=1.13.3
+  - pip=24.3.1
+  - pip:
+      - easygui==0.98.3
+      - gmsh==4.13.1
+      - meshio==3.0.0
+      - opencv-python==4.11.0.86
+      - pandoc==2.4
+      - plumbum==1.9.0
+      - ply==3.11
+      - solidspy==1.1.0.post1
